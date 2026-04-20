@@ -38,7 +38,6 @@ if submitted:
         st.sidebar.success("Запись добавлениа!")
     else:
         st.sidebar.error("Сумма должна быть больше 0")
-
 # Функция 2: Просмотр и фильтрация (Требование №23)
 st.subheader("📊 История ваших транзакций")
 if not df.empty:
